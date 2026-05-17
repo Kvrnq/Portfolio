@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayman - Executive Systems & Data Portfolio</title>
+    <link rel="icon" href="/src/assets/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div class="custom-cursor"></div>
+
+    <div class="scroll-progress-container">
+      <div class="scroll-progress-bar"></div>
+    </div>
+
+    <header class="top-nav">
+      <div class="nav-brand magnetic-el" data-morph="cube">
+        <span class="scramble-brand" data-value="AYMAN">AYMAN</span><span class="gold-dot">.</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About Me</a>
+        <a href="#working-on" class="nav-item">Current Research</a>
+        <a href="#experience" class="nav-item">Academic Timeline</a>
+        <a href="#projects" class="nav-item">Project Portfolio</a>
+        <div class="nav-underline"></div>
+      </nav>
+    </header>
+
+    <aside class="side-bar">
+      <div class="social-line"></div>
+      <a class="vlt-social-icon vlt-social-icon--style-1" href="https://www.linkedin.com/in/aymanrahouti?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/737373/linkedin.png" alt="Linkedin" width="30">
+        </a>
+      
+
+      <div class="social-line"></div>
+    </aside>
+
+    <canvas id="bg-canvas"></canvas>
+    <div class="ambient-matrix-grid"></div>
+
+    <main class="ui-layer">
+
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <p class="greeting">Hi, my name is</p>
+          <h1 class="name"><span class="scramble-text" data-value="Ayman">Ayman</span><span class="muted-stroke">.</span></h1>
+          <p class="home-description">
+            Passionate and curious individual with great versatility. I love exploring new fields and adapting to different challenges, always driven by a thirst for knowledge and a desire to excel.
+          </p>
+          <div class="actions">
+            <button class="btn-primary magnetic-el" data-morph="cryptochain" onclick="window.location.href='mailto:aymanrahouti@centrale.com';">
+  <span class="btn-text">Request Executive CV</span>
+  <div class="btn-reveal-layer">
+    <span class="btn-text-invert">Request Executive CV</span>
+  </div>
+  <span class="laser-track lt-top"></span>
+  <span class="laser-track lt-right"></span>
+  <span class="laser-track lt-bottom"></span>
+  <span class="laser-track lt-left"></span>
+</button>
+</div>
+</div>
+        <div class="hero-visual tilt-card" data-morph="sphere">
+          <img src="/src/assets/PDP.png" alt="Ayman" id="profile-img" class="profile-image card-content">
+          <div class="glow-backdrop"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="layout-container">
+          <div class="section-header reveal-el">
+            <span class="tech-number">01 // CORE ASSETS</span>
+            <h2 class="section-title"><span class="scramble-text" data-value="About Me">About Me</span></h2>
+          </div>
+          <div class="skills-grid">
+            <div class="metric-card tilt-card reveal-el" data-morph="number2">
+              <div class="card-glow"></div>
+              <div class="metric-content card-content">
+                <div class="big-number">2</div>
+                <div class="metric-label">
+                  <span>Years Of</span><span>Active</span><span>Execution</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card tilt-card reveal-el" style="transition-delay: 0.05s;" data-morph="gantt">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <h3 class="skill-title">Project Management</h3>
+                <p class="skill-tokens">Microsoft Project, Notion, Excel, Trello, Asana, Power BI</p>
+              </div>
+            </div>
+
+            <div class="skill-card tilt-card reveal-el" style="transition-delay: 0.1s;" data-morph="cube">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <h3 class="skill-title">Programming Languages</h3>
+                <p class="skill-tokens">Python, JavaScript, VBA, R</p>
+              </div>
+            </div>
+
+            <div class="skill-card tilt-card reveal-el" style="transition-delay: 0.15s;" data-morph="cylinder">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <h3 class="skill-title">Data Structures & SQL</h3>
+                <p class="skill-tokens">PostgreSQL, Relational Schemas, Data Warehousing, Indexing</p>
+              </div>
+            </div>
+
+            <div class="skill-card tilt-card reveal-el" style="transition-delay: 0.2s;" data-morph="helix">
+              <div class="card-glow"></div>
+              <div class="card-content">
+                <h3 class="skill-title">Conception & Modeling</h3>
+                <p class="skill-tokens">Blender, SolidWorks, CATIA, Abaqus, Autodesk, ANSYS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="working-on" class="working-section">
+        <div class="layout-container">
+          <div class="section-header reveal-el">
+            <span class="tech-number">02 // ACTIVE PIPELINES</span>
+            <h2 class="section-title"><span class="scramble-text" data-value="CURRENTLY WORKING ON">CURRENTLY WORKING ON</span></h2>
+          </div>
+        </div>
+
+        <div class="marquee-wrapper reveal-el">
+          <div class="marquee-track">
+            <div class="working-card" data-morph="linkage">
+              <span class="status-dot"></span>
+              <div class="working-content">
+                <span class="working-category">Robotics & Biomechanics</span>
+                <h3 class="working-title">ExoBoost</h3>
+                <p class="working-desc">Development of an exoskeleton to enhance performance in athletes and industrial workers. See Project</p>
+              </div>
+            </div>
+            <div class="working-card" data-morph="wavefield">
+              <span class="status-dot"></span>
+              <div class="working-content">
+                <span class="working-category">Medical Data Science</span>
+                <h3 class="working-title">PyPolarData</h3>
+                <p class="working-desc">An extension of the "PyPolar" application, enabling advanced visualization and interpretation of medical data. This tool provides insights into key health metrics for pathology detection and preventive healthcare actions.</p>
+              </div>
+            </div>
+            <div class="working-card" data-morph="linkage">
+              <span class="status-dot"></span>
+              <div class="working-content">
+                <span class="working-category">Robotics & Biomechanics</span>
+                <h3 class="working-title">ExoBoost</h3>
+                <p class="working-desc">Development of an exoskeleton to enhance performance in athletes and industrial workers. See Project</p>
+              </div>
+            </div>
+            <div class="working-card" data-morph="wavefield">
+              <span class="status-dot"></span>
+              <div class="working-content">
+                <span class="working-category">Medical Data Science</span>
+                <h3 class="working-title">PyPolarData</h3>
+                <p class="working-desc">An extension of the "PyPolar" application, enabling advanced visualization and interpretation of medical data. This tool provides insights into key health metrics for pathology detection and preventive healthcare actions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="timeline-section">
+        <div class="layout-container">
+          <div class="section-header reveal-el">
+            <span class="tech-number">03 // CERTIFICATIONS & PATHS</span>
+            <h2 class="section-title"><span class="scramble-text" data-value="ACADEMIC TIMELINE">ACADEMIC TIMELINE</span></h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal-el" data-morph="gantt">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2023 - 2026</span>
+                <h3 class="timeline-role">Double Degree in Complex Systems Project Management</h3>
+                <span class="timeline-company">École Centrale Méditerranée</span>
+                <p>Focusing on the analysis, design, and optimization of intricate technical and organizational systems across various industrial sectors.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal-el" data-morph="helix">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2022 - 2026</span>
+                <h3 class="timeline-role">Engineering Program</h3>
+                <span class="timeline-company">École Centrale Casablanca</span>
+                <p>A rigorous elite engineering curriculum emphasizing multidisciplinary problem-solving, data-driven decision optimization, and structural system scalability.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal-el" data-morph="cube">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2020 - 2022</span>
+                <h3 class="timeline-role">Classes Préparatoires (CPGE)</h3>
+                <span class="timeline-company">Advanced Mathematics & Physics</span>
+                <p>Two years of highly intensive training in pure mathematics, classical physics, and algorithmic structures designed for national engineering board competition entry.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="horizontal-projects-section">
+        <div class="section-header sticky-header">
+            <span class="tech-number">04 // COMPLETED REGISTRY</span>
+            <h2 class="section-title"><span class="scramble-text" data-value="PROJECTS">PROJECTS</span></h2>
+            <p class="scroll-instruction">Scroll down to traverse horizontal engine ⟶</p>
+        </div>
+
+        <div class="horizontal-track">
+
+            <div class="h-project-card tilt-card" data-morph="wavefield">
+              <div class="h-project-image">
+                <img src="/src/assets/p1.png" alt="PyPolarData">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Medical / Analytics — January 2, 2025</span>
+                <h3 class="project-title">PyPolarData – AI-Powered Medical Data Analysis</h3>
+                <p class="project-desc">An extension of the "PyPolar" application, enabling advanced visualization and interpretation of medical data. This tool provides insights into key health metrics for pathology detection and preventive healthcare actions.</p>
+                <div class="tech-tags">
+                  <span>Data Visualization</span><span>Pathology Detection</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="dome">
+              <div class="h-project-image">
+                <img src="/src/assets/p2.png" alt="Mars Project">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Space Engineering — December 25, 2024</span>
+                <h3 class="project-title">Mars Project – The Gomdome, A Martian Habitat</h3>
+                <p class="project-desc">Meet "Gomdome", a Martian capsule designed to accommodate families and offer an immersive experience of life on Mars.</p>
+                <div class="tech-tags">
+                  <span>Structural CAD</span><span>Aerospace Engineering</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="radar">
+              <div class="h-project-image">
+                <img src="/src/assets/p3.jpg" alt="Honey Pot AI">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Cybersecurity / ML — August 11, 2024</span>
+                <h3 class="project-title">Honey Pot AI – Proactive Cybersecurity</h3>
+                <p class="project-desc">The security of the National Treasury is a critical issue. This project introduces an AI-powered honeypot designed to analyze cyberattacks in detail, helping predict and prevent future threats to the platform.</p>
+                <div class="tech-tags">
+                  <span>Machine Learning</span><span>Threat Intelligence</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="cryptochain">
+              <div class="h-project-image">
+                <img src="/src/assets/p4.png" alt="Mynk">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Fintech / Security — April 4, 2024</span>
+                <h3 class="project-title">Mynk – Strengthening Online Banking Security</h3>
+                <p class="project-desc">Detecting and analyzing security vulnerabilities in an online banking platform to enhance its protection.</p>
+                <div class="tech-tags">
+                  <span>Vulnerability Analysis</span><span>Network Protocols</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="gantt">
+              <div class="h-project-image">
+                <img src="/src/assets/p5.jpg" alt="Hackathon Coca-Cola">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Operations Optimization — May 14, 2024</span>
+                <h3 class="project-title">Hackathon Coca-Cola/TecPap – Optimizing Production Chains</h3>
+                <p class="project-desc">Coca-Cola and TecPap, a paper packaging manufacturer, sought to improve their production chains. This project delivered innovative modifications and a major breakthrough in efficiency.</p>
+                <div class="tech-tags">
+                  <span>Process Optimization</span><span>Industrial Systems</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="cube">
+              <div class="h-project-image">
+                <img src="/src/assets/p6.png" alt="Scientific Project GAN">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Deep Learning Research — December 2, 2023</span>
+                <h3 class="project-title">Scientific Project – Exploring GAN Architectures</h3>
+                <p class="project-desc">Familiar with standard GAN architectures like DCGAN, CGAN, and StyleGAN? Discover our scientific paper detailing an innovative GAN architecture with enhanced performance.</p>
+                <div class="tech-tags">
+                  <span>Generative Models</span><span>Neural Networks</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="sphere">
+              <div class="h-project-image">
+                <img src="/src/assets/p7.jpeg" alt="IHotel">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">AI Communication — October 9, 2023</span>
+                <h3 class="project-title">IHotel – AI for Tourism Communication</h3>
+                <p class="project-desc">Major events are coming to Morocco, including AFCON 2026 and the FIFA World Cup 2030. To enhance communication between tourists and locals, our AI-powered application provides real-time assistance for hotels, tour guides, and restaurants—ensuring visitors feel at home.</p>
+                <div class="tech-tags">
+                  <span>Natural Language Processing</span><span>App Architecture</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="cone">
+              <div class="h-project-image">
+                <img src="/src/assets/p8.png" alt="Cellular Compass">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Telecom Engineering — June 25, 2023</span>
+                <h3 class="project-title">Cellular Compass – Boost Your Mobile Connection</h3>
+                <p class="project-desc">You’ve subscribed to an internet plan, yet the actual data speed doesn’t match the advertised one! Obstacles and electromagnetic interferences are slowing you down. "Cellular Compass" helps you locate the best connection zones with high precision.</p>
+                <div class="tech-tags">
+                  <span>Signal Processing</span><span>Electromagnetism</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="clusters">
+              <div class="h-project-image">
+                <img src="/src/assets/p9.png" alt="Coding Week">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Risk Modeling — May 9, 2023</span>
+                <h3 class="project-title">Coding Week – AI for Credit Scoring</h3>
+                <p class="project-desc">Using various artificial intelligence models, we developed a basic yet effective naive algorithm capable of assessing an individual’s reliability based on their profile—helping determine their eligibility for bank loans.</p>
+                <div class="tech-tags">
+                  <span>Algorithmic Logic</span><span>Predictive Classification</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="linkage">
+              <div class="h-project-image">
+                <img src="/src/assets/p10.jpg" alt="RapidExo">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Automation Subsystems — February 8, 2023</span>
+                <h3 class="project-title">RapidExo – Smart Automation</h3>
+                <p class="project-desc">Developing a bot capable of intelligently bypassing platform restrictions to execute a specific task efficiently.</p>
+                <div class="tech-tags">
+                  <span>Automation Bots</span><span>Script Execution</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="helix">
+              <div class="h-project-image">
+                <img src="/src/assets/p11.jpg" alt="TIPE Pacemakers">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Biomedical Engineering — April 17, 2022</span>
+                <h3 class="project-title">TIPE – Securing Pacemakers</h3>
+                <p class="project-desc">Pacemakers are naturally sensitive to high electromagnetic fields, requiring shielding for proper functioning. But how can we design a shield that blocks these fields while still allowing seamless communication between the doctor and the pacemaker ?</p>
+                <div class="tech-tags">
+                  <span>Electromagnetic Shielding</span><span>Biomedical Systems</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="h-project-card tilt-card" data-morph="cube">
+              <div class="h-project-image">
+                <img src="/src/assets/p12.png" alt="Sulake Corporation">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="h-project-info card-content">
+                <span class="project-category">Software Design — January 18, 2022</span>
+                <h3 class="project-title">Coding derived Sulake Corporation – Software Development</h3>
+                <p class="project-desc">A project focused on designing and optimizing software solutions for specific digital challenges.</p>
+                <div class="tech-tags">
+                  <span>Software Optimization</span><span>Architecture Design</span>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
